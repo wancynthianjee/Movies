@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from "react";
 import './style.css';
-import { getMovies } from "../../utils/utilities";
+import { getMovies } from "../../Utils/utilities";
 const IMAGE_BASE_URL = process.env.REACT_APP_BASE_IMAGE_BASE_URL;
 
 const GetMovies = () =>{
@@ -40,3 +40,4 @@ if (loading) {
 export default GetMovies;
 
 
+ 
